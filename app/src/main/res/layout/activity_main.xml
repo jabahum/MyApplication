@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:textAlignment="center"
+           android:textAllCaps="true"
+           android:textSize="30sp"
+           android:text="Expenditures"/>
+
+       <EditText
+           android:id="@+id/enter_id"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:hint="Enter  ID "/>
+       <EditText
+           android:id="@+id/enter_income_id"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:hint="Enter  Item "/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:id="@+id/enter_expenditure_id"
+           android:hint="Enter  Item Price"
+           android:layout_height="70dp"/>
+
+
+       <Button
+           android:layout_width="match_parent"
+           android:id="@+id/submit_button_id"
+           android:text="Submit"
+           android:layout_height="70dp"/>
+       <Button
+           android:layout_width="match_parent"
+           android:id="@+id/edit_button_id"
+           android:text="edit"
+           android:layout_height="70dp"/>
+       <Button
+           android:layout_width="match_parent"
+           android:id="@+id/delete_button_id"
+           android:text="Delete"
+           android:layout_height="70dp"/>
+       <Button
+           android:layout_width="match_parent"
+           android:id="@+id/view_button_id"
+           android:text="View All"
+           android:layout_height="70dp"/>
+
+   </LinearLayout>
+</ScrollView>
